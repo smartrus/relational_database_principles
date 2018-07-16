@@ -44,7 +44,17 @@ For a table to be in the First Normal Form, it should follow the following 4 rul
 * No partial dependencies
 * No transitive dependencies
 
+Transitive Dependency - when a non-prime attribute depends on other non-prime attributes rather than depending upon the prime attributes or primary key
+
 [3NF tutorial](https://www.studytonight.com/dbms/third-normal-form.php)
+
+## Boyce and Codd Normal Form (BCNF)
+
+Boyce and Codd Normal Form is a higher version of the Third Normal form. This form deals with certain type of anomaly that is not handled by 3NF. A 3NF table which does not have multiple overlapping candidate keys is said to be in BCNF. For a table to be in BCNF, following conditions must be satisfied:
+
+R must be in 3rd Normal Form and, for each functional dependency ( X → Y ), X should be a super Key.
+
+[BCNF tutorial](https://www.studytonight.com/dbms/boyce-codd-normal-form.php)
 
 ## 4NF - Fourth Normal Form
 
