@@ -1,6 +1,6 @@
-# ACID from wikipedia https://en.wikipedia.org/wiki/ACID -
+# ACID
 
- ACID is a set of properties of database transactions intended to guarantee validity even in the event of errors, power failures, etc.
+ ACID is a set of properties of database transactions intended to guarantee validity even in the event of errors, power failures, etc. See the link: https://en.wikipedia.org/wiki/ACID
 
 ## A - Atomicity
 
