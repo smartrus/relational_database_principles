@@ -34,7 +34,7 @@ For a table to be in the First Normal Form, it should follow the following 4 rul
 * Atomic columns
 * No partial dependencies - where an attribute in a table depends on only a part of the primary key and not on the whole key.
 
-[2nd tutorial](https://www.studytonight.com/dbms/second-normal-form.php)
+[2NF tutorial](https://www.studytonight.com/dbms/second-normal-form.php)
 
 ## 3NF - Third normal forms
 
@@ -44,4 +44,13 @@ For a table to be in the First Normal Form, it should follow the following 4 rul
 * No partial dependencies
 * No transitive dependencies
 
-[3rd tutorial](https://www.studytonight.com/dbms/third-normal-form.php)
+[3NF tutorial](https://www.studytonight.com/dbms/third-normal-form.php)
+
+## 4NF - Fourth Normal Form
+
+A table is said to be in the Fourth Normal Form when:
+
+* It is in the Boyce-Codd Normal Form
+* It doesn't have Multi-Valued Dependency
+
+[4NF tutorial](https://www.studytonight.com/dbms/fourth-normal-form.php)
